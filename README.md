@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🌐 Website Monitoring Dashboard
 
@@ -20,7 +18,6 @@ It captures DNS requests, logs data into CSV, displays results in a searchable T
 ---
 
 ## 📂 Project Structure
-
 ```
 
 Website-Monitoring-Dashboard/
@@ -30,21 +27,19 @@ Website-Monitoring-Dashboard/
 │── requirements.txt # Dependencies
 │── README.md # Project documentation
 
-```
+````
 
 ---
 
 ## 🛠️ Installation
 
-1. Clone this repository:
+1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/Website-Monitoring-Dashboard.git
+   git clone https://github.com/Osvic1/Website-Monitoring-Dashboard.git
    cd Website-Monitoring-Dashboard
-   ```
-
 ````
 
-2. Create and activate a virtual environment (recommended):
+2. **Create and activate a virtual environment (recommended)**
 
    ```bash
    python -m venv .venv
@@ -52,7 +47,7 @@ Website-Monitoring-Dashboard/
    .venv\Scripts\activate      # Windows
    ```
 
-3. Install dependencies:
+3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
@@ -77,7 +72,7 @@ python web_monitor.py
 
 ## 📊 Example Dashboard
 
-_("C:\Users\USER\OneDrive\Pictures\Screenshots 1\Screenshot 2025-08-21 134313.png")_
+![Dashboard Screenshot](C:/Users/USER/OneDrive/Pictures/Screenshots%201/Screenshot%202025-08-21%20134313.png)
 
 ---
 
@@ -100,6 +95,7 @@ Dependencies are listed in **requirements.txt**:
 - Deploy as a web app (Flask/Django + React)
 
 ---
+
 ## 👤 Author
 
 **Timothy Victor Osas**
@@ -115,8 +111,20 @@ Dependencies are listed in **requirements.txt**:
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-```
+````
 
 ---
-```
+
+⚠️ Two important fixes for you:
+1. Your **remote repo URL** had an extra dot (`..git`). It should be:
+   ```bash
+   git remote set-url origin https://github.com/Osvic1/Website-Monitoring-Dashboard.git
 ````
+
+2. GitHub does not support local image paths like `C:/Users/...`. You’ll need to upload the screenshot into your repo (`/assets/` folder, for example), then use:
+
+   ```markdown
+   ![Dashboard Screenshot](assets/dashboard.png)
+   ```
+
+---
