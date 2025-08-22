@@ -1,6 +1,3 @@
-Perfect ✅
-Here’s a **professional `README.md`** you can copy directly into your project folder. It will make your project look polished on GitHub:
-
 ---
 
 ```markdown
@@ -23,6 +20,7 @@ It captures DNS requests, logs data into CSV, displays results in a searchable T
 ---
 
 ## 📂 Project Structure
+
 ```
 
 Website-Monitoring-Dashboard/
@@ -32,7 +30,7 @@ Website-Monitoring-Dashboard/
 │── requirements.txt # Dependencies
 │── README.md # Project documentation
 
-````
+```
 
 ---
 
@@ -42,6 +40,8 @@ Website-Monitoring-Dashboard/
    ```bash
    git clone https://github.com/your-username/Website-Monitoring-Dashboard.git
    cd Website-Monitoring-Dashboard
+   ```
+
 ````
 
 2. Create and activate a virtual environment (recommended):
@@ -100,14 +100,14 @@ Dependencies are listed in **requirements.txt**:
 - Deploy as a web app (Flask/Django + React)
 
 ---
-
 ## 👤 Author
 
 **Timothy Victor Osas**
 
-- 📧 Email: [Timothyv952@gmail.com](mailto:your.email@example.com)
-- 🌐 Portfolio: [your-portfolio-link](https://your-portfolio-link.com)
-- 💼 LinkedIn: [https://www.linkedin.com/in/timothy-victor-a61421223/](https://linkedin.com/in/your-linkedin)
+- 📧 Email: [Timothyv952@gmail.com](mailto:Timothyv952@gmail.com)
+- 🌐 Portfolio: [Coming Soon](#)
+- 💼 LinkedIn: [https://www.linkedin.com/in/timothy-victor-a61421223/](https://www.linkedin.com/in/timothy-victor-a61421223/)
+- 🐙 GitHub: [https://github.com/Osvic1](https://github.com/Osvic1)
 
 ---
 
@@ -119,3 +119,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 ```
+````
