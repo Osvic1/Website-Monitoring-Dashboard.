@@ -113,18 +113,10 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ````
 
----
-
-⚠️ Two important fixes for you:
-1. Your **remote repo URL** had an extra dot (`..git`). It should be:
-   ```bash
-   git remote set-url origin https://github.com/Osvic1/Website-Monitoring-Dashboard.git
-````
-
-2. GitHub does not support local image paths like `C:/Users/...`. You’ll need to upload the screenshot into your repo (`/assets/` folder, for example), then use:
 
    ```markdown
    ![Dashboard Screenshot](assets/dashboard.png)
    ```
 
 ---
+````
