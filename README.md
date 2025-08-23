@@ -111,16 +111,12 @@ Dependencies are listed in **requirements.txt**:
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-````
-
-
-   ```markdown
+```
 ### 📊 Example Dashboard
 
 | Overview | Live Report | PDF Report |
 |:---:|:---:|:---:|
 | ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Monitoring Report](assets/Webmonitorlivereport.png) | ![Printed PDF Report](assets/Dashboardprintedreport.png) |
-   ```
 
 ---
-````
+```
