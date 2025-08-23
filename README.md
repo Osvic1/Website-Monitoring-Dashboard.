@@ -1,7 +1,7 @@
 ```markdown
 # 🌐 Website Monitoring Dashboard
 
-A real-time **website monitoring tool** with a **graphical dashboard** for visualizing and analyzing domain activity.  
+A real-time **website monitoring tool** with a **graphical dashboard** for visualizing and analyzing domain activity.
 It captures DNS requests, logs data into CSV, displays results in a searchable Treeview, and generates reports in PDF format.
 
 ---
@@ -21,11 +21,11 @@ It captures DNS requests, logs data into CSV, displays results in a searchable T
 ```
 
 Website-Monitoring-Dashboard/
-│── web_monitor.py # Main project file
-│── web_monitor_log.csv # Auto-generated CSV logs
-│── web_monitor.log # Auto-generated log file
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
+│── web_monitor.py \# Main project file
+│── web_monitor_log.csv \# Auto-generated CSV logs
+│── web_monitor.log \# Auto-generated log file
+│── requirements.txt \# Dependencies
+│── README.md \# Project documentation
 
 ````
 
@@ -34,24 +34,24 @@ Website-Monitoring-Dashboard/
 ## 🛠️ Installation
 
 1. **Clone this repository**
-   ```bash
-   git clone https://github.com/Osvic1/Website-Monitoring-Dashboard.git
-   cd Website-Monitoring-Dashboard
-````
+    ```bash
+    git clone [https://github.com/Osvic1/Website-Monitoring-Dashboard.git](https://github.com/Osvic1/Website-Monitoring-Dashboard.git)
+    cd Website-Monitoring-Dashboard
+    ```
 
 2. **Create and activate a virtual environment (recommended)**
 
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # Linux/Mac
-   .venv\Scripts\activate      # Windows
-   ```
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate    # Linux/Mac
+    .venv\Scripts\activate      # Windows
+    ```
 
 3. **Install dependencies**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ---
 
@@ -72,7 +72,9 @@ python web_monitor.py
 
 ## 📊 Example Dashboard
 
-![Dashboard Screenshot](C:/Users/USER/OneDrive/Pictures/Screenshots%201/Screenshot%202025-08-21%20134313.png)
+| Overview | Live Report | PDF Report |
+|:---:|:---:|:---:|
+| ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Monitoring Report](assets/Webmonitorlivereport.png) | ![Printed PDF Report](assets/Dashboardprintedreport.png) |
 
 ---
 
@@ -110,13 +112,5 @@ Dependencies are listed in **requirements.txt**:
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
 ```
-### 📊 Example Dashboard
-
-| Overview | Live Report | PDF Report |
-|:---:|:---:|:---:|
-| ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Monitoring Report](assets/Webmonitorlivereport.png) | ![Printed PDF Report](assets/Dashboardprintedreport.png) |
-
----
-```
+````
