@@ -5,6 +5,8 @@ requests
 pandas
 matplotlib
 reportlab
+python-dotenv
+
 
 
 

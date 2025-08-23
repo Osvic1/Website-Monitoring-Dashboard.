@@ -1,0 +1,30 @@
+# --- Secrets ---
+# Never commit your environment file containing API keys.
+.env
+
+# --- Virtual Environment ---
+# The virtual environment is specific to your machine and can be very large.
+# Other developers will create their own.
+.venv/
+venv/
+
+# --- Python Cache & Bytecode ---
+# These files are generated automatically by Python to speed things up.
+# They are not part of your source code.
+__pycache__/
+*.pyc
+
+# --- Log Files ---
+# The script generates log files that should not be tracked.
+*.log
+
+# --- Generated Reports ---
+# Ignore the data files that your application exports.
+*.csv
+*.xlsx
+*.pdf
+
+# --- IDE/Editor Specific Files ---
+# Ignore configuration folders from common editors like VS Code.
+.vscode/
+.idea/

@@ -64,10 +64,13 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # ---------------- CONFIG ---------------- #
-GOOGLE_SAFE_BROWSING_API_KEY = "AIzaSyD-Z97GXEJ0-88e4lo6ua8jppSk10kttpo"
+GOOGLE_SAFE_BROWSING_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 LOG_FILE = "web_monitor.log"
 MIN_INTERVAL = 10  # Seconds before re-logging the same site to avoid floods
