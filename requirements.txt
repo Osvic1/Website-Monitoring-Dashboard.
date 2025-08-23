@@ -6,37 +6,3 @@ pandas
 matplotlib
 reportlab
 python-dotenv
-
-
-
-
-🔎 Explanation:
-
-scapy → packet sniffing (captures DNS traffic).
-
-tldextract → extracts the domain from subdomains (e.g., mail.google.com → google.com).
-
-python-whois → WHOIS lookups for organization/founder info.
-
-requests → for making HTTP requests (Google Safe Browsing API).
-
-pandas → for dataframes + exporting to Excel/CSV.
-
-matplotlib → for bar chart visualization inside the dashboard.
-
-reportlab → for exporting PDF reports.
-
-tkinter is built-in with Python, so it’s not added.
-
-🚀 How to use it:
-
-Create the file in your project folder:
-
-notepad requirements.txt
-
-
-(paste the above list and save).
-
-Install everything at once:
-
-pip install -r requirements.txt
