@@ -139,9 +139,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ### 📊 Example Reports
 
-|                          Overview                           |                 Live Monitoring                 |                    PDF Report                     |
-| :---------------------------------------------------------: | :---------------------------------------------: | :-----------------------------------------------: |
-| ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Report](assets/Webmonitorlivereport.png) | ![Printed PDF](assets/Dashboardprintedreport.png) |
+|                          Overview                           |                  Live Monitoring                   |                     PDF Report                      |
+| :---------------------------------------------------------: | :------------------------------------------------: | :-------------------------------------------------: |
+| ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Report](assets/Web-monitor-live-report.png) | ![Printed PDF](assets/dashboard-printed-report.png) |
 
 ```
 
