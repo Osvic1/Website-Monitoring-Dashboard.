@@ -92,7 +92,7 @@ python web_monitor.py
 
 ## 📊 Example Dashboard
 
-![Dashboard Screenshot](assets/website-monitor-dashboard.png)
+![Dashboard Screenshot](assets/web-monitor-live-report.png)
 
 ---
 
