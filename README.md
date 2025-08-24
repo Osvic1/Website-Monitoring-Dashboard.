@@ -42,35 +42,87 @@ Website-Monitoring-Dashboard/
 
 ---
 
-## 🛠 Installation
+## ⚡ Quick Start (Copy & Paste)
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
-   cd Website-Monitoring-Dashboard.
+### 🐧 Linux / macOS
+```bash
+git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+cd Website-Monitoring-Dashboard.
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+echo "GOOGLE_API_KEY=your_api_key_here" > .env
+python web_monitor.py
 ````
 
-2. **Create and activate a virtual environment (recommended)**
+### 🪟 Windows (PowerShell)
 
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # Linux/Mac
-   .venv\Scripts\activate      # Windows
-   ```
+```powershell
+git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+cd Website-Monitoring-Dashboard.
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+echo GOOGLE_API_KEY=your_api_key_here > .env
+python web_monitor.py
+```
 
-3. **Install dependencies**
+### 🛡 Kali Linux (Debian-based)
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+cd Website-Monitoring-Dashboard.
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt --break-system-packages
+echo "GOOGLE_API_KEY=your_api_key_here" > .env
+python web_monitor.py
+```
 
-4. **Set your Google Safe Browsing API Key**
+---
 
-   - Create a `.env` file in the project folder:
+## 🐳 Run with Docker (No Python Needed)
 
-     ```
-     GOOGLE_API_KEY=your_api_key_here
-     ```
+### 1. Build the Docker image
+
+```bash
+git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+cd Website-Monitoring-Dashboard.
+docker build -t web-monitor .
+```
+
+### 2. Run the container
+
+```bash
+docker run -it --rm \
+  -e GOOGLE_API_KEY=your_api_key_here \
+  -v $(pwd):/app \
+  web-monitor
+```
+
+- `-e GOOGLE_API_KEY=your_api_key_here` → sets your API key inside the container
+- `-v $(pwd):/app` → mounts your current project folder for logs/reports
+
+### 3. GUI Access (Tkinter inside Docker)
+
+If you want the Tkinter GUI while running inside Docker:
+
+#### Linux
+
+```bash
+xhost +local:docker
+docker run -it --rm \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -e GOOGLE_API_KEY=your_api_key_here \
+  -v $(pwd):/app \
+  web-monitor
+```
+
+#### Windows/macOS
+
+- Install **XQuartz (macOS)** or **VcXsrv (Windows)**.
+- Run Docker with the same command, but ensure your X11 server is running.
 
 ---
 
