@@ -198,3 +198,80 @@ This project is open-source and available under the [MIT License](LICENSE).
 ```
 
 ```
+
+Perfect 👍 I’ll add a **new section in your README.md** that:
+
+1. Explains **what the Google Safe Browsing API does** in your project.
+2. Shows a **step-by-step guide** on how users can get their own API key.
+3. Explains **why it’s needed** and how to keep it secure.
+
+Here’s the updated section you can paste into your README.md:
+
+---
+
+````markdown
+---
+
+## 🔑 Google Safe Browsing API Key
+
+This project integrates with **Google Safe Browsing** to check if a domain is **safe or malicious**.  
+The API is used to detect:
+
+- ⚠️ Phishing & deceptive websites  
+- ⚠️ Malware-infected domains  
+- ⚠️ Sites distributing harmful or unwanted software  
+
+Whenever your system visits a domain, the dashboard queries Google’s Safe Browsing API and flags it as:
+
+- ✅ **Safe** – no issues found  
+- ❌ **Unsafe** – flagged by Google as phishing, malware, or malicious  
+
+---
+
+### 🛠 How to Get a Google Safe Browsing API Key
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/).
+2. Sign in with your Google account.
+3. Create a **new project** (or use an existing one).
+4. Enable the **Safe Browsing API**:
+   - Go to **APIs & Services > Library**.
+   - Search for **Safe Browsing API**.
+   - Click **Enable**.
+5. Create **API credentials**:
+   - Go to **APIs & Services > Credentials**.
+   - Click **Create Credentials > API Key**.
+   - Copy the generated key.
+
+---
+
+### 🔒 Storing the API Key Securely
+
+Do **not** paste your API key directly in the code.  
+Instead, create a `.env` file in the project root:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
+````
+
+The program will automatically load this key when running.
+
+---
+
+### 📌 Why It’s Needed
+
+Without this key:
+
+- The dashboard cannot check domains against Google’s security database.
+- Malicious websites will **not be flagged**.
+
+With the key:
+
+- Every captured domain is verified against Google’s live database.
+- You get **real-time alerts** about unsafe websites directly in your dashboard.
+
+---
+
+```
+
+```
