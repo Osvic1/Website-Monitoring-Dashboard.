@@ -46,8 +46,8 @@ Website-Monitoring-Dashboard/
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/Osvic1/Website-Monitoring-Dashboard.git
-   cd Website-Monitoring-Dashboard
+   git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+   cd Website-Monitoring-Dashboard.
 ````
 
 2. **Create and activate a virtual environment (recommended)**
