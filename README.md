@@ -195,18 +195,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 | :---------------------------------------------------------: | :------------------------------------------------: | :-------------------------------------------------: |
 | ![Dashboard Overview](assets/website-monitor-dashboard.png) | ![Live Report](assets/Web-monitor-live-report.png) | ![Printed PDF](assets/dashboard-printed-report.png) |
 
-```
-
-```
-
-Perfect 👍 I’ll add a **new section in your README.md** that:
-
-1. Explains **what the Google Safe Browsing API does** in your project.
-2. Shows a **step-by-step guide** on how users can get their own API key.
-3. Explains **why it’s needed** and how to keep it secure.
-
-Here’s the updated section you can paste into your README.md:
-
 ---
 
 ````markdown
