@@ -52,7 +52,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 echo "GOOGLE_API_KEY=your_api_key_here" > .env
-python web_monitor.py
+sudo .venv/bin/python web_monitor.py
 ````
 
 ### 🪟 Windows (PowerShell)
