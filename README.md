@@ -58,12 +58,12 @@ sudo .venv/bin/python web_monitor.py
 ### 🪟 Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/Osvic1/Website-Monitoring-Dashboard..git
+git clone https://github.com/Osvic1/Website-Monitoring-Dashboard.git
 cd Website-Monitoring-Dashboard.
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-echo GOOGLE_API_KEY=your_api_key_here > .env
+Set-Content -Path ".env" -Value "GOOGLE_API_KEY=input your api key here" -Encoding Ascii
 python web_monitor.py
 ```
 
